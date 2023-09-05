@@ -9,7 +9,7 @@ def ordenacao(lista, n):
     return lista
 l1 = [1, 3, 3, 4, 5]
 l2 = [4, 3, 0, 5, 8]
-if len(l1) != len(l2):
+if len(l1) != len(l2) or l1 == l2:
     print("As listas não são permutações")
 else:
     l1 = ordenacao(l1, len(l1))
