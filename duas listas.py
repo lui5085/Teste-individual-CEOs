@@ -18,7 +18,7 @@ l1 = ordenacao(l1, len(l1)) #Ordenação da lista com todos os elementos
 for i in range(len(l2), len(l1)): #Adição dos elementos com indice maior que n(tamanho das listas originais)
     l2[x] = l1[i]
     x += 1
-for i in range(0, len(l2)): #Deletar como 
+for i in range(0, len(l2)): #criar uma nova lista sem os n ultimos elementos que estão agora na lista 2 
     l1f.append(l1[i])
 
 print(l1f, l2)
